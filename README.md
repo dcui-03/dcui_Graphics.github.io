@@ -11,6 +11,7 @@ Implementation of keyboard shortcuts to accomplish the following:
   - Toggle specific light objects on/off.
   - Toggle ambient, diffuse, specular components on/off.
   - Switch between scenes
+
 Four scenes were designed to display and test the capabilities of the program. (See below for images). Some scenes include animated light components.
 
 MESHES
