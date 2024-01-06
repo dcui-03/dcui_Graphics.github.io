@@ -1,6 +1,7 @@
 # Predator-Prey Simulation
 
 Predator-Prey Simulation (Python)
+
 (starter code for the OpenGL pipeline was provided by instructor. Code is copyrighted and is not shareable on public pages.)
 
 The goal of the project was to create and model a vivarium, including creatures with collision detection and interactivity using gradient descent.
