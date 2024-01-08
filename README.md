@@ -2,7 +2,7 @@
 
 Predator-Prey Simulation (Python)
 
-(starter code for the OpenGL pipeline was provided by instructor. Code is copyrighted and is not shareable on public pages.)
+(Starter code for the OpenGL pipeline was provided by instructor. Code is copyrighted and is not shareable on public pages. Descriptions are left somewhat vague, as project solutions are also not shareable on public pages.)
 
 The goal of the project was to create and model a vivarium, including creatures with collision detection and interactivity using gradient descent.
 
@@ -30,9 +30,9 @@ Creatures were programmed to face their direction of movement. Food models spawn
 
 In order to simulate predator eating prey, when a predator creature collided with a prey creature, the prey creature would be flagged as "eaten" and disappear the next frame. Eating prey reduced the predator's hunger meter, which gave them less incentive to chase other prey.
 
-General movement was implemented per frame and was calculated using Gaussian gradient descent. Prey creatures would seek directions away from predators, and predator creatures would seek the direction of prey. To avoid issues, predator and prey would have an additional gradient to disincentivize colliding with walls. This allowed prey to escape around the tank rather than get trapped between a predator and a wall. Lastly, randomness was added to the final vector to minimize stagnation and predictability.
+General movement was implemented per frame and was calculated using Gaussian gradient descent. Prey creatures would seek directions away from predators, and predator creatures would seek the direction of prey. To avoid issues, predator and prey would have an additional gradient to disincentivize colliding with walls. This allowed prey to escape around the tank rather than get trapped between a predator and a wall. Lastly, randomness was added to the final vector direction to minimize stagnation and predictability.
 
-Although the paradigm of movement did not allow for proper SLERP implementation, a modified SLERP implementation was constructed to simulate smoother turns.
+Although the paradigm of movement did not allow for proper SLERP implementation, a modified SLERP implementation was constructed to simulate smoother movement.
 
 BOIDS/FLOCKING
 
