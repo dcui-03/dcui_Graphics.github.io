@@ -16,7 +16,7 @@ Four scenes were designed to display and test the capabilities of the program. (
 
 MESHES
 
-Meshes for the following objects were created: Cube, Sphere, Ellipsoid, Cylinder, Torus, Half Sphere, Half Torus. Vertices and vertex normals were calculated and catalogued using EBO. Duplicate vertices were catalogued for Sphere and Torus in order to perform texture mapping. Additionally, duplicate vertices with differing normals were catalogued for Cylinders, Half Spheres, and Half Toruses at locations where smooth edges meet flat faces.
+Meshes for the following objects were created: Cube, Sphere, Ellipsoid, Cylinder, Torus, Half Sphere, Half Torus. Vertices and vertex normals were calculated using parametric forms and catalogued using EBO. Duplicate vertices were catalogued for Sphere and Torus in order to perform texture mapping. Additionally, duplicate vertices with differing normals were catalogued for Cylinders, Half Spheres, and Half Toruses at locations where smooth edges meet flat faces.
 
 Meshes were compiled in the four different scenes. Each mesh in each scene was given a different ambient, specular, and diffuse coefficient, such that differing textures and reflectivity could be observed.
 
@@ -24,8 +24,8 @@ LIGHTING (GLSL)
 
 Given light objects were positioned to illuminate created scenes. Lights were also given typing (point, spotlight, infinite), and associated attributes for their type.
 
-Unlike other sections, lighting calculations and controls were written as a fragment shader in GLSL using Phong Shading. For each fragment, the lighting calculations were performed using attributes of the light, the camera position, as well as the normal vector and material attributes of the object. Radial and angular attenuation were accounted for in calculations. Resulting specular, diffuse, and ambient components were combined and clamped to produce proper RGB values.
+Unlike other sections, lighting calculations and controls were written as a fragment shader in GLSL using Phong Shading. For each fragment, the lighting calculations were performed using attributes of the light, the camera position, as well as the normal vector and material attributes of the fragment object. Radial and angular attenuation were accounted for in calculations. Resulting specular, diffuse, and ambient components were combined and clamped to produce proper RGB values.
 
 TEXTURE AND NORMAL MAPPING
 
-Texture mapping and normal mapping calculations were performed on the Sphere and Torus meshes during construction of EBO.
+Texture mapping and normal mapping calculations were performed on the Sphere and Torus meshes by assigning valid texel coordinates to each vertex. Texels were then pulled from the texture map (as specified in the scene) when constructing objects during runtime.
