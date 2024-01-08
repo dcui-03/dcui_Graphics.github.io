@@ -2,7 +2,7 @@
 
 3D Modeling and Transformation (Python)
 
-(starter code for the OpenGL pipeline was provided by instructor. Code is copyrighted and is not shareable on public pages.)
+(Starter code for the OpenGL pipeline was provided by instructor. Code is copyrighted and is not shareable on public pages. Descriptions are left somewhat vague, as project solutions are also not shareable on public pages.)
 
 The goal of the project was to explore 3D geometry and effects of transformations in OpenGL. After brainstorming my creature, I drew a reference image (see below). 
 
