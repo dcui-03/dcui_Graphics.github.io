@@ -1,3 +1,23 @@
-# Graphics Project Repository
+# Line-Drawing Program (Scan Conversion)
 
-This repository's pages contain detailed descriptions of Graphics projects conducted by Daniel Cui.
+Line-Drawing Program (Python)
+
+(Starter code for the OpenGL pipeline was provided by instructor. Code is copyrighted and is not shareable on public pages. Descriptions are left somewhat vague, as project solutions are also not shareable on public pages.)
+
+The goal of the project was to generate a line and triangle-drawing program. Basic environment was provided, but implementation was up to self.
+
+LINES
+
+Implementation of the line-drawing method was dependent upon Bresenham's algorithm. Since a simple derivation of Bresenham's works for only slopes between 0 and 1, lines outside this ranges were transformed to fit this range, and then transformed back to their correct positions when drawn.
+
+TRIANGLES
+
+Drawing and filling triangles followed the scan filling method. Edges of triangles were drawn using Bresenham's algorithm, and then the inside was iteratively scan-filled. Flat bottomed triangles were drawn by directly using this method, while non-flat bottomed triangles were divided into two flat bottomed triangles that were drawn separately.
+
+COLOR
+
+Linear interpolation was implemented for line color and bilinear interpolation was implemented for triangle color, such that randomly selected point colors would produce the expected smooth color gradient. Additionally, randomized color could be toggled off and flat shading would be performed.
+
+TEXTURE
+
+Texture mapping was partially implemented for triangles. A singular issue occurred in which pixels on a steep edges of a triangle did not receive texture mapping.
