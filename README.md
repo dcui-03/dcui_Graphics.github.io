@@ -21,3 +21,5 @@ Linear interpolation was implemented for line color and bilinear interpolation w
 TEXTURE
 
 Texture mapping was partially implemented for triangles. A singular issue occurred in which pixels on a steep edges of a triangle did not receive texture mapping.
+
+<img width="500" alt="Screen Shot 2023-09-18 at 12 27 23 AM" src="https://github.com/dcui-03/dcui-03.github.io/assets/123329050/fc0b3472-af4f-4827-9694-7b1600ce6b13">
