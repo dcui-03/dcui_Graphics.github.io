@@ -23,6 +23,14 @@ Using provided meshes for Cube, Sphere, Cylinder, and Cone, the creature was cre
 
 MOVEMENT
 
-Five scenes were constructed for the creature, demonstrating its range of movement and dynamic, realistic posturing (see below).
+Five scenes were constructed for the creature, demonstrating its range of movement and dynamic, realistic posturing (four of the scenes are shown below).
 
 Each component/limb in the creature (including ears, eyebrows, pupils, paws, etc.) was assigned a keyboard binding, allowing them to be selected in real time and rotated along the same axis.
+
+<img width="400" alt="Screen Shot 2023-10-16 at 1 39 06 AM" src="https://github.com/dcui-03/dcui-03.github.io/assets/123329050/d6af70f3-9d17-45ba-ab5c-3dd65ee919f5">
+<img width="400" alt="Screen Shot 2023-10-16 at 1 16 02 AM" src="https://github.com/dcui-03/dcui-03.github.io/assets/123329050/d0998f20-46d3-4844-865b-fa3b9f4ed883">
+
+<img width="400" alt="Screen Shot 2023-10-16 at 1 15 51 AM" src="https://github.com/dcui-03/dcui-03.github.io/assets/123329050/c32cc618-71ef-4cee-ae79-3fec04b2e608">
+<img width="400" alt="Screen Shot 2023-10-16 at 1 16 32 AM" src="https://github.com/dcui-03/dcui-03.github.io/assets/123329050/4b678254-b0e7-4bf0-b4fc-f96fbd375cbc">
+
+![ReferenceDrawing](https://github.com/dcui-03/dcui-03.github.io/assets/123329050/cebd7358-d970-4b3c-8f75-3b2476e4d607)
