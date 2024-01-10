@@ -37,3 +37,7 @@ Although the paradigm of movement did not allow for proper SLERP implementation,
 BOIDS/FLOCKING
 
 Fish flocking behavior was implemented using Craig Reynold's Boids Algorithm. This enabled groups of more than five Fish within a close vicinity to flock (come closer together) and share a movement direction. At a very close vicinity, though, Fish were incentivized to move apart to avoid collision.
+
+https://github.com/dcui-03/dcui-03.github.io/assets/123329050/959b1cec-cc9f-492b-aa59-e67f707ca0f6
+
+
