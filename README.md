@@ -29,3 +29,7 @@ Unlike other sections, lighting calculations and controls were written as a frag
 TEXTURE AND NORMAL MAPPING
 
 Texture mapping and normal mapping calculations were performed on the Sphere and Torus meshes by assigning valid texel coordinates to each vertex. Texels were then pulled from the texture map (as specified in the scene) when constructing objects during runtime.
+
+
+
+https://github.com/dcui-03/dcui-03.github.io/assets/123329050/a8aced8d-3278-45c7-9d5f-658e717dc7f5
